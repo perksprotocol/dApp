@@ -96,10 +96,9 @@ a {
 .action_confirm {
   color: #fff;
   border: none;
-  background: #29c4ff;
+  background: linear-gradient(to right, rgba(59,82,255,1) 0%,rgba(207,5,213,1) 99%);
   padding: 5px 10px;
   border-radius: 5px;
-  margin-left: 10px;
   cursor: pointer;
   position: relative;
   font-size: 0.9rem;
@@ -108,7 +107,7 @@ a {
 .trigger-button:hover,
 .action_confirm:hover,
 #connectWallet:hover {
-  background: linear-gradient(to right, rgba(59,82,255,1) 0%,rgba(207,5,213,1) 99%);
+  background: linear-gradient(to right, rgba(207,5,213,1) 0%,rgba(59,82,255,1) 99%);
   transition: all .5s ease;
 }
 
@@ -134,7 +133,7 @@ a {
 }
 
 .connect-trigger {
-  margin-right: 10px;
+  margin-right: 0px;
 }
 
 #table_content {
