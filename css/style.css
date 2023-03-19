@@ -216,9 +216,9 @@ th {
   border-radius: 5px;
   text-decoration: none;
   margin-left: 10px;
-  border: 1px solid;
   cursor: pointer;
   font-weight: 900;
+  color:white;
 }
 
 .buy-more:hover {
@@ -451,7 +451,7 @@ th {
   bottom: -25px;
   left: 50%;
   transform: translate(-50%, 0);
-  color: #29c4ff;
+  color: #cf05d5;
 }
 
 @media (max-width: 730px) {
