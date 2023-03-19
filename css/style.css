@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.6rem;
   font-size: 0.9rem;
   background: url(../img/perks_bg.png) top center no-repeat;
@@ -562,6 +562,12 @@ p {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 30px;
+}
+
+h3.earn-reward {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 10px;
 }
 
