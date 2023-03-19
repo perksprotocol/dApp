@@ -102,6 +102,7 @@ a {
   cursor: pointer;
   position: relative;
   font-size: 0.9rem;
+  font-weight: 900;
 }
 
 .trigger-button:hover,
@@ -209,25 +210,25 @@ th {
 }
 
 .buy-more {
-  background: #fff;
+  background: linear-gradient(to right, rgba(59,82,255,1) 0%,rgba(207,5,213,1) 99%);
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
   padding: 5px 10px;
   border-radius: 5px;
   text-decoration: none;
   margin-left: 10px;
   border: 1px solid;
   cursor: pointer;
+  font-weight: 900;
 }
 
 .buy-more:hover {
-  background: #29c4ff;
-  color: #fff;
+  background: linear-gradient(to right, rgba(207,5,213,1) 0%,rgba(59,82,255,1) 99%);
+  transition: all .5s ease;
 }
 
 .buy-more-disabled {
   background: gray !important;
   color: black !important;
-  border: 0px !important;
-  font-weight: bold !important;
 }
 
 .min_height {
