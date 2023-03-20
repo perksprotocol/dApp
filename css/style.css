@@ -101,7 +101,7 @@ a {
   border-radius: 5px;
   cursor: pointer;
   position: relative;
-  font-size: 0.9rem;
+  font-size: 16px;;
   font-weight: 900;
 }
 
@@ -228,7 +228,8 @@ th {
 
 .buy-more-disabled {
   background: gray !important;
-  color: black !important;
+  color: white !important;
+  cursor: default;
 }
 
 .min_height {
@@ -575,4 +576,8 @@ p.earn-title {
   margin-top:10px;
 }
 
+.countdown{
 
+ min-width: 50px;
+
+}
