@@ -226,10 +226,9 @@ th {
   transition: all .5s ease;
 }
 
-.buy-more-disabled {
-  background: gray !important;
-  color: white !important;
-  cursor: default;
+.buy-more.buy-more-disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 .min_height {
@@ -578,6 +577,7 @@ p.earn-title {
 
 .countdown{
 
- min-width: 50px;
-
+  min-width: 75px;
+  display: inline-block;
+  font-weight: bold;
 }
