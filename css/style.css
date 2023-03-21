@@ -515,6 +515,7 @@ th {
 .modal-title {
   font-size: 18px;
   margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .modal-input {
@@ -588,4 +589,9 @@ p.earn-title {
   min-width: 75px;
   display: inline-block;
   font-weight: bold;
+}
+
+.claimprice{
+  font-weight: 700;
+  font-size: 16px;
 }
