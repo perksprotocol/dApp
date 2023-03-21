@@ -231,6 +231,11 @@ th {
   cursor: not-allowed;
 }
 
+.action_confirm.buy-more-disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 .min_height {
   min-height: 200px;
 }
