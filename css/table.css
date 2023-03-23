@@ -42,20 +42,7 @@
     background-repeat: no-repeat;
     background-position: center right;
   }
-  table.dataTable thead .sorting {
-  }
-  table.dataTable thead .sorting_asc {
-    background-image: url("../img/sort_asc.png");
-  }
-  table.dataTable thead .sorting_desc {
-    background-image: url("../img/sort_desc.png");
-  }
-  table.dataTable thead .sorting_asc_disabled {
-    background-image: url("../img/sort_asc_disabled.png");
-  }
-  table.dataTable thead .sorting_desc_disabled {
-    background-image: url("../img/sort_desc_disabled.png");
-  }
+ 
   table.dataTable tbody tr {
     background-color: none;
   }
@@ -438,15 +425,6 @@
     .dataTables_wrapper .dataTables_filter {
       margin-top: 0.5em;
     }
-  }
-  
-  
-  table.dataTable thead .sorting_asc {
-      background-image: url("../img/sort_asc.png") !important;
-  }
-  
-  table.dataTable thead .sorting_desc {
-      background-image: url("../img/sort_desc.png") !important;
   }
   
   .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
