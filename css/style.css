@@ -120,10 +120,6 @@ a {
   background: #666;
 }
 
-.action_confirm {
-  margin: 10px 0px;
-}
-
 #withdraw_confirm {
   background: #444;
 }
@@ -584,14 +580,26 @@ p.earn-title {
   margin-top:10px;
 }
 
-.countdown{
-
+.countdown {
   min-width: 75px;
   display: inline-block;
   font-weight: bold;
 }
 
-.claimprice{
+.claimprice {
   font-weight: 700;
   font-size: 16px;
+}
+
+.next-process{
+  display: flex;
+  gap: 10px;
+  row-gap: 46px;
+  column-gap: 8px;
+  line-height: 0px;
+}
+
+.next-process-p {
+  top: 12%;
+  position: relative;
 }
