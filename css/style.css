@@ -40,6 +40,9 @@ a {
   cursor: pointer;
   margin-top: 15px;
   position: relative;
+  font-family: monospace;
+  font-size: 15px;
+  text-transform: uppercase;
 }
 
 #content {
@@ -109,9 +112,10 @@ a {
   border-radius: 5px;
   cursor: pointer;
   position: relative;
-  font-size: 16px;;
+  font-size: 20px;;
   font-weight: 900;
   text-transform: uppercase;
+  font-family: monospace;
 }
 
 .trigger-button:hover,
@@ -220,10 +224,12 @@ th {
   padding: 5px 10px;
   border-radius: 5px;
   text-decoration: none;
-  margin-left: 10px;
   cursor: pointer;
   font-weight: 900;
   color:white;
+  font-family: monospace;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 .buy-more:hover {
@@ -702,7 +708,9 @@ p.earn-title {
   text-align: justify;
   padding: 10px 15px 10px 15px;
   border: 1px dotted grey;
-  margin-top: 5px;
+  margin-top: 5px
+}
 
-
+#connect-wallet {
+  font-size: 20px;
 }
