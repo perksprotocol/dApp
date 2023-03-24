@@ -52,6 +52,9 @@ a {
 .tabs {
   float: left;
   width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
 
 .tab {
@@ -77,15 +80,20 @@ a {
 
 .tab_content.active {
   display: block;
+  width: 100%;
+  max-width: 500px;
 }
 
 .content {
+  display: flex;
+  justify-content: center;
   float: left;
   width: calc(100% - 40px);
   padding: 20px;
   background: url(../img/content_bg.png) repeat;
   border-radius: 5px;
   border-top-left-radius: 0px;
+  min-height: 700px;
 }
 
 .value {
@@ -103,6 +111,7 @@ a {
   position: relative;
   font-size: 16px;;
   font-weight: 900;
+  text-transform: uppercase;
 }
 
 .trigger-button:hover,
@@ -239,13 +248,14 @@ th {
 .stats {
   float: left;
   width: 25%;
-  margin: 20px 0px;
-  padding: 20px;
+  padding: 25px;
   border: 2px solid #000;
-  border-radius: 20px;
-  font-size: 1.5rem;
+  border-radius: 5px;
   text-align: center;
-  line-height: 40px;
+  line-height: 70px;
+  background: #677bf8;
+  margin-bottom: 10px;
+  margin-right: 10px;
 }
 
 .stats1 {
@@ -253,7 +263,9 @@ th {
 }
 
 .su-msg {
-  float: left;
+  text-align: center;
+  display: block;
+  padding: 20px;
 }
 
 .pRight {
@@ -326,10 +338,11 @@ th {
 
 .mobile-menu {
   position: absolute;
-  top: 100px;
+  top: 71px;
   right: 20px;
   border-radius: 8px;
-  background: #29c4ff;
+  background: linear-gradient(to right, rgba(59,82,255,1) 0%,rgba(207,5,213,1) 99%);
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
   padding: 8px 16px;
   color: white;
   font-weight: 800;
@@ -572,6 +585,7 @@ h3.earn-reward {
   font-size: 20px;
   font-weight: bold;
   padding-bottom: 10px;
+  text-align: center;
 }
 
 p.earn-title {
@@ -602,4 +616,93 @@ p.earn-title {
 .next-process-p {
   top: 12%;
   position: relative;
+}
+
+.item-list {
+  border: 1px white;
+  padding: 5px;
+  background: #677bf8;
+  border-style: solid;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  min-width: 160px;
+}
+
+.funding-summary {
+  max-width: 380px;
+  border: dotted 1px black;
+  display: block;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 10px auto 0px auto;
+}
+
+.earn-process {
+  text-align: center;
+  background: linear-gradient(to right, rgba(59,82,255,1) 0%,rgba(207,5,213,1) 99%);
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  color: white;
+  padding: 5px;
+  border: solid whitesmoke 1px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: flex;
+  flex-direction: column;
+  min-width: 160px;
+}
+
+.price-perks {
+  color:white;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row-reverse
+}
+
+.title-perks {
+  color:black;
+  font-weight: 700;
+}
+
+.button-process {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#overview_content, #info_content {
+  max-width: 900px;
+}
+
+#stake_content, #harvest_content {
+  max-width: 500px;
+}
+
+.overview {
+  display: inline-block;
+}
+
+.overview-perks {
+  color: black;
+  font-weight: 900;
+  font-size: 1.5em;
+}
+
+.overview-price {
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.reward-div {
+
+  text-align: justify;
+  padding: 10px 15px 10px 15px;
+  border: 1px dotted grey;
+  margin-top: 5px;
+
+
 }
