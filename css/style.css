@@ -41,7 +41,7 @@ a {
   margin-top: 15px;
   position: relative;
   font-family: monospace;
-  font-size: 15px;
+  font-size: 1.3rem;
   text-transform: uppercase;
 }
 
@@ -67,9 +67,9 @@ a {
   background: url(../img/tab_bg.png) repeat;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  font-weight: 900;
+  font-weight: 700;
   color: #fff;
-  margin-right: 1px;
+  margin-right: 5px;
 }
 
 .tab.active {
@@ -228,7 +228,7 @@ th {
   font-weight: 900;
   color:white;
   font-family: monospace;
-  font-size: 20px;
+  font-size: 18px;
   text-transform: uppercase;
 }
 
@@ -253,15 +253,21 @@ th {
 
 .stats {
   float: left;
-  width: 25%;
-  padding: 25px;
+  width: 45%;
+  padding: 30px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
   border: 2px solid #000;
   border-radius: 5px;
   text-align: center;
   line-height: 70px;
   background: #677bf8;
+  margin-left: 25px;
+  margin-right: auto;
   margin-bottom: 10px;
-  margin-right: 10px;
+  box-sizing: border-box;
 }
 
 .stats1 {
@@ -347,8 +353,7 @@ th {
   top: 71px;
   right: 20px;
   border-radius: 8px;
-  background: linear-gradient(to right, rgba(59,82,255,1) 0%,rgba(207,5,213,1) 99%);
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  background: #677bf8;
   padding: 8px 16px;
   color: white;
   font-weight: 800;
@@ -356,6 +361,7 @@ th {
   flex-direction: column;
   gap: 8px;
   z-index: 99;
+  line-height: 2rem;
 }
 
 .mobile-menu > div {
@@ -472,6 +478,9 @@ th {
   left: 50%;
   transform: translate(-50%, 0);
   color: #cf05d5;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 800; 
 }
 
 @media (max-width: 730px) {
@@ -482,14 +491,32 @@ th {
     margin-right: 0;
   }
 }
+@media (max-width: 375px) {
+  .stats {
+    float:none;    
+  }
+  .stats1 {
+    margin-right: 0;
+  }
+  #connect-wallet {
+    display:none;
+  }
+  .address {
+    font-size:10px;
 
+  }
+}
 @media (max-width: 600px) {
+
+  .address {
+    font-size: 10px;
+  }
   #logo {
     width: 150px;
   }
   #connectWallet {
     padding: 8px 16px;
-    font-size: 0.8rem;
+    font-size: 1.3rem;
     margin-top: 8px;
   }
   .footer-left {
@@ -647,11 +674,9 @@ p.earn-title {
 
 .earn-process {
   text-align: center;
-  background: linear-gradient(to right, rgba(59,82,255,1) 0%,rgba(207,5,213,1) 99%);
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
   color: white;
   padding: 5px;
-  border: solid whitesmoke 1px;
+  border: solid #454d5d 1px;
   border-radius: 5px;
   text-transform: uppercase;
   font-weight: 900;
@@ -687,11 +712,12 @@ p.earn-title {
 
 .overview {
   display: inline-block;
+  box-sizing: border-box;
 }
 
 .overview-perks {
   color: black;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 1.5em;
 }
 
