@@ -214,7 +214,7 @@ th {
 }
 
 .autofill {
-  color: #29c4ff;
+  color: white;
   cursor: pointer;
 }
 
@@ -572,7 +572,7 @@ th {
   display: flex;
   justify-content: space-between;
   padding: 4px;
-  border: 1px solid #13d5fe;
+  border: 1px solid black;
   border-radius: 4px;
 }
 
@@ -581,8 +581,8 @@ th {
   outline: unset;
   font-size: 16px;
   font-weight: 700;
-  color: black;
-  background:#E8E8E8;
+  color: white;
+  background:#677bf8;
 }
 
 .modal-button {
@@ -594,8 +594,9 @@ th {
 }
 
 .modal-btn {
-  background: #29c4ff;
-  color: #000;
+  background: linear-gradient(to right, rgba(59,82,255,1) 0%,rgba(207,5,213,1) 99%);
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  color: white;
   padding: 4px 12px;
   font-weight: 700;
   border-radius: 4px;
@@ -603,10 +604,11 @@ th {
   position: relative;
   border: unset;
   font-size:16px;
+  font-family: monospace;
 }
 
 .modal-cancel {
-  background: gray !important;
+  background: black !important;
 }
 
 p {
@@ -740,4 +742,13 @@ p.earn-title {
 
 #connect-wallet {
   font-size: 20px;
+}
+
+.text-connect {
+  cursor: pointer;
+}
+
+.text-connect.i {
+  text-decoration: underline;
+  color:white;
 }
