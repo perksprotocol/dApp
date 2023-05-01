@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.6rem;
   font-size: 0.9rem;
   background: url(../img/perks_bg.png) top center no-repeat;
@@ -31,8 +31,13 @@ a {
 
 #connectWallet {
   float: right;
-  background: linear-gradient(to right, rgba(59,82,255,1) 0%,rgba(207,5,213,1) 99%);
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  background: linear-gradient(
+    to right,
+    rgba(59, 82, 255, 1) 0%,
+    rgba(207, 5, 213, 1) 99%
+  );
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   color: #fff;
   padding: 10px 20px;
   font-weight: 900;
@@ -107,12 +112,16 @@ a {
 .action_confirm {
   color: #fff;
   border: none;
-  background: linear-gradient(to right, rgba(59,82,255,1) 0%,rgba(207,5,213,1) 99%);
+  background: linear-gradient(
+    to right,
+    rgba(59, 82, 255, 1) 0%,
+    rgba(207, 5, 213, 1) 99%
+  );
   padding: 5px 10px;
   border-radius: 5px;
   cursor: pointer;
   position: relative;
-  font-size: 20px;;
+  font-size: 20px;
   font-weight: 900;
   text-transform: uppercase;
   font-family: monospace;
@@ -121,8 +130,29 @@ a {
 .trigger-button:hover,
 .action_confirm:hover,
 #connectWallet:hover {
-  background: linear-gradient(to right, rgba(207,5,213,1) 0%,rgba(59,82,255,1) 99%);
-  transition: all .5s ease;
+  background: linear-gradient(
+    to right,
+    rgba(207, 5, 213, 1) 0%,
+    rgba(59, 82, 255, 1) 99%
+  );
+  transition: all 0.5s ease;
+}
+
+.referral-cancel {
+  background: black;
+  font-size: 17px;
+}
+
+
+.referral-cancel:hover {
+  background:gray !important;
+  transition: all 0.5s ease;
+  font-size: 17px;
+}
+
+
+.referral-accept {
+  font-size: 17px;
 }
 
 #button_withdraw {
@@ -219,32 +249,43 @@ th {
 }
 
 .buy-more {
-  background: linear-gradient(to right, rgba(59,82,255,1) 0%,rgba(207,5,213,1) 99%);
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  background: linear-gradient(
+    to right,
+    rgba(59, 82, 255, 1) 0%,
+    rgba(207, 5, 213, 1) 99%
+  );
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   padding: 5px 10px;
   border-radius: 5px;
   text-decoration: none;
   cursor: pointer;
   font-weight: 900;
-  color:white;
+  color: white;
   font-family: monospace;
-  font-size: 18px;
+  font-size: 20px;
   text-transform: uppercase;
 }
 
 .buy-more:hover {
-  background: linear-gradient(to right, rgba(207,5,213,1) 0%,rgba(59,82,255,1) 99%);
-  transition: all .5s ease;
+  background: linear-gradient(
+    to right,
+    rgba(207, 5, 213, 1) 0%,
+    rgba(59, 82, 255, 1) 99%
+  );
+  transition: all 0.5s ease;
 }
 
 .buy-more.buy-more-disabled {
   opacity: 0.5;
   cursor: not-allowed;
+  background: black;
 }
 
 .action_confirm.buy-more-disabled {
   opacity: 0.5;
   cursor: not-allowed;
+  background: black;
 }
 
 .min_height {
@@ -478,9 +519,9 @@ th {
   left: 50%;
   transform: translate(-50%, 0);
   color: #cf05d5;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 15px;
-  font-weight: 800; 
+  font-weight: 800;
 }
 
 @media (max-width: 730px) {
@@ -493,20 +534,22 @@ th {
 }
 @media (max-width: 375px) {
   .stats {
-    float:none;    
+    float: none;
   }
   .stats1 {
     margin-right: 0;
   }
   #connect-wallet {
-    display:none;
+    display: none;
   }
   .address {
-    font-size:10px;
-
+    font-size: 10px;
   }
 }
 @media (max-width: 600px) {
+  .ref-link {
+    font-size: 10px !important;
+  }
 
   .address {
     font-size: 10px;
@@ -582,7 +625,7 @@ th {
   font-size: 16px;
   font-weight: 700;
   color: white;
-  background:#677bf8;
+  background: #677bf8;
 }
 
 .modal-button {
@@ -594,8 +637,13 @@ th {
 }
 
 .modal-btn {
-  background: linear-gradient(to right, rgba(59,82,255,1) 0%,rgba(207,5,213,1) 99%);
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  background: linear-gradient(
+    to right,
+    rgba(59, 82, 255, 1) 0%,
+    rgba(207, 5, 213, 1) 99%
+  );
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   color: white;
   padding: 4px 12px;
   font-weight: 700;
@@ -603,7 +651,7 @@ th {
   cursor: pointer;
   position: relative;
   border: unset;
-  font-size:16px;
+  font-size: 16px;
   font-family: monospace;
 }
 
@@ -626,7 +674,7 @@ h3.earn-reward {
 p.earn-title {
   font-size: 16px;
   font-weight: bold;
-  margin-top:10px;
+  margin-top: 10px;
 }
 
 .countdown {
@@ -640,7 +688,7 @@ p.earn-title {
   font-size: 16px;
 }
 
-.next-process{
+.next-process {
   display: flex;
   gap: 10px;
   row-gap: 46px;
@@ -665,6 +713,64 @@ p.earn-title {
   min-width: 160px;
 }
 
+.item-qr {
+  background: none !important;
+}
+
+.ref-link {
+  font-size: 15px;
+  text-align: center;
+  color: white !important;
+  cursor: pointer;
+  position:relative;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+.ref-link .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.ref-link .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.tooltiptext.show {
+  visibility: visible;
+}
+
+.qr-img {
+  border: 1px white;
+  margin-left: auto;
+  margin-right: auto;
+  background: none;
+  max-width: 100%;
+  margin-top: 5px;
+}
+
+.qr-img img {
+  max-width: 100%;
+}
+
 .funding-summary {
   max-width: 380px;
   border: dotted 1px black;
@@ -685,18 +791,18 @@ p.earn-title {
   display: flex;
   flex-direction: column;
   min-width: 160px;
-  background-color: #2B2B95;
+  background-color: #2b2b95;
 }
 
 .price-perks {
-  color:white;
+  color: white;
   font-weight: 700;
   display: flex;
-  flex-direction: row-reverse
+  flex-direction: row-reverse;
 }
 
 .title-perks {
-  color:black;
+  color: black;
   font-weight: 700;
 }
 
@@ -705,11 +811,14 @@ p.earn-title {
   justify-content: space-evenly;
 }
 
-#overview_content, #info_content {
+#overview_content,
+#info_content {
   max-width: 900px;
 }
 
-#stake_content, #harvest_content {
+#stake_content,
+#harvest_content,
+#referral_content {
   max-width: 500px;
 }
 
@@ -733,11 +842,10 @@ p.earn-title {
 }
 
 .reward-div {
-
   text-align: justify;
   padding: 10px 15px 10px 15px;
   border: 1px dotted grey;
-  margin-top: 5px
+  margin-top: 5px;
 }
 
 #connect-wallet {
@@ -750,5 +858,14 @@ p.earn-title {
 
 .text-connect.i {
   text-decoration: underline;
-  color:white;
+  color: white;
+}
+
+.about{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.about img{
+  max-width: 100%;
 }
